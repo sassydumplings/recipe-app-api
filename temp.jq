@@ -1,0 +1,1 @@
+.services[] | (.last_incident_timestamp == null) or (.last_incident_timestamp | now - fromdate > 604800)x`x`
